@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 5px;
 }
@@ -71,8 +75,66 @@ body {
           justify-content: center;
 }
 
-.Conteiner2 {
-  background-color: blueviolet;
+.navegador {
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 1%;
+  bottom: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navegador ul {
+  background-color: #cccccc91;
+  width: 80%;
+  list-style: none;
+  margin: 0%;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-radius: 5px;
+}
+
+.navegador ul li {
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  letter-spacing: 1px;
+}
+
+.navegador ul li a {
+  text-decoration: none;
+  color: #3F3D56;
+  font-weight: bold;
+}
+
+.navegador ul li:hover {
+  background-color: #A2D79A;
+}
+
+.Aptitudes {
+  background-color: #D7BDE2;
+  min-height: 100vh;
+}
+
+.Contacto {
+  background-color: #2be262;
+  min-height: 100vh;
+}
+
+.Proyectos {
+  background-color: #d0e22b;
   min-height: 100vh;
 }
 /*# sourceMappingURL=style.css.map */

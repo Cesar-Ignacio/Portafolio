@@ -1,6 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 5px;
 }
+
+
 
 $colorverde:#A2D79A;
 $colorSegundo:#6133E4;
@@ -63,16 +69,56 @@ $colorSegundo:#6133E4;
 
     }
 
-
-
-    
-   
     
 }
 
+.navegador{
+       
+    width: 100%;
+    position: sticky;
+    top: 1%;
+    bottom: 5%;
+    display: flex;
+    justify-content: center;
+    
+    ul{
+        background-color: #cccccc91;
+        width: 80%;
+        list-style: none;
+        margin: 0%;
+        padding: 5px;
+        display: flex;
+        justify-content: space-around;
+        border-radius: 5px;
+        li{
+            padding: 10px;
+            border-radius: 5px;
+            transition-property: background-color;
+            transition-duration: 1s;
+            letter-spacing: 1px;
+            
+            a{
+                text-decoration: none;
+                color: #3F3D56;
+                font-weight: bold;
+            }
+           
+        }
+        li:hover{
+            background-color:$colorverde;
+        }
+    }
+}
 
-
-.Conteiner2{
-    background-color: blueviolet;
+.Aptitudes{
+    background-color: #D7BDE2;
+    min-height: 100vh;
+}
+.Contacto{
+    background-color: rgb(43, 226, 98);
+    min-height: 100vh;
+}
+.Proyectos{
+    background-color: rgb(208, 226, 43);
     min-height: 100vh;
 }
