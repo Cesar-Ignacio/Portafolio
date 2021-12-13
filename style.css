@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  margin: 5px;
+  margin: 0%;
 }
 
 .Presentacion {
@@ -126,6 +126,7 @@ body {
 .Aptitudes {
   background-color: #D7BDE2;
   min-height: 100vh;
+  padding: 5px;
 }
 
 .Contacto {
