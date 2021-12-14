@@ -62,11 +62,18 @@ body {
 }
 
 .Presentacion .sobremi {
-  background-color: rgba(17, 34, 17, 0.336);
+  background-color: rgba(17, 34, 17, 0.377);
   border-radius: 5px;
   width: 50%;
   padding: 10px;
   position: absolute;
+  border-color: #6133E4;
+  border-style: solid;
+  color: white;
+}
+
+.Presentacion .sobremi h2 {
+  color: #3F3D56;
 }
 
 .Presentacion .sobremi p {
@@ -75,6 +82,13 @@ body {
           justify-content: center;
 }
 
+/*
+
+********** ********** NAVEGADOR *********** ************
+********** ********** NAVEGADOR *********** ************
+********** ********** NAVEGADOR *********** ************
+
+*/
 .navegador {
   width: 100%;
   position: -webkit-sticky;
@@ -101,6 +115,9 @@ body {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   border-radius: 5px;
+  border-color: #6133E4;
+  border-style: solid;
+  border-width: 1px;
 }
 
 .navegador ul li {
@@ -124,18 +141,128 @@ body {
 }
 
 .Aptitudes {
-  background-color: #D7BDE2;
+  background-color: white;
   min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 5px;
+  color: #3F3D56;
 }
 
-.Contacto {
-  background-color: #2be262;
-  min-height: 100vh;
+.Aptitudes h1 {
+  color: #A2D79A;
+}
+
+.Aptitudes .skills {
+  width: 85%;
+  padding: 2%;
+}
+
+.Aptitudes .skills .iconos {
+  background-color: rgba(172, 189, 172, 0.336);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #6133E4;
+}
+
+.Aptitudes .skills .iconos figure {
+  width: 70px;
+  padding: 5px;
+  border-radius: 10px;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.Aptitudes .skills .iconos figure img {
+  width: 100%;
+}
+
+.Aptitudes .imgsvg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 30%;
+  margin-top: 5px;
+}
+
+.Aptitudes .imgsvg img {
+  width: 100%;
+}
+
+.Aptitudes figure:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 .Proyectos {
-  background-color: #d0e22b;
+  background-color: white;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5px;
+  color: #3F3D56;
+}
+
+.Proyectos h1 {
+  color: #A2D79A;
+}
+
+.Proyectos .proyectoscabecera {
+  width: 85%;
+  padding: 2%;
+}
+
+.Proyectos .proyectos {
+  width: 85%;
+  padding: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Proyectos .proyectos .pro {
+  width: 30%;
+}
+
+.Proyectos .proyectos .pro img {
+  width: 100%;
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+}
+
+.Contacto {
+  background-color: #c22f2f;
   min-height: 100vh;
 }
 /*# sourceMappingURL=style.css.map */
