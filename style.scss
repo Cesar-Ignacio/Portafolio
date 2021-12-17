@@ -95,6 +95,7 @@ $colorSegundo:#6133E4;
         padding: 5px;
         display: flex;
         justify-content: space-around;
+        flex-wrap: wrap;
         border-radius: 5px;
         border-color: $colorSegundo;
         border-style: solid;
