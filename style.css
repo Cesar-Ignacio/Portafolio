@@ -103,6 +103,8 @@ body {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   border-radius: 5px;
   border-color: #6133E4;
   border-style: solid;
