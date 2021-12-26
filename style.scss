@@ -4,6 +4,7 @@ html{
 
 body{
     margin: 0%;
+   background-color:#fbfbfb;
 }
 *{
     font-family: century;
@@ -14,7 +15,7 @@ $colorverde:#A2D79A;
 $colorSegundo:#6133E4;
 
 .Presentacion{
-
+    background-color: #fbfbfb;
     min-height:100vh ;
     display: flex;
     justify-content: center;
@@ -79,7 +80,7 @@ $colorSegundo:#6133E4;
 */
 
 .navegador{
-       
+    background-color: transparent;
     width: 100%;
     position: sticky;
     top: 1%;
@@ -122,7 +123,7 @@ $colorSegundo:#6133E4;
 
 .Aptitudes
 {
-    background-color: white;
+    background-color: #fbfbfb;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -179,7 +180,7 @@ $colorSegundo:#6133E4;
 
 
 .Proyectos{
-        background-color: white;
+        background-color: #fbfbfb;
         min-height: 100vh;
         display: flex;
         
@@ -224,16 +225,18 @@ $colorSegundo:#6133E4;
   
 .Contacto{
     
- 
-    min-height: 100vh;
+
+   min-height: 100vh;
     display: flex;
-    
     .imgcontato{
+    
         width: 70%; 
         display: flex;
         align-items: flex-end;
+        display: flex;
+        justify-content: center;
         img{
-            width:100%;
+            width:80%;
         }
     }
     .contacto{
